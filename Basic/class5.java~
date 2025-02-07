@@ -11,7 +11,7 @@ public class class5 {
 //        }
 
 
-        int studetnsMarks = 41;
+        int studetnsMarks = 38;
 
          if(studetnsMarks >= 60){
              System.out.println("Grade: A");
