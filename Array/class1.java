@@ -7,7 +7,8 @@ public class class1 {
 
 //        dataType [] refName = {"data" , "Data", "data"};
 
-        String []myArray = {"Raghav", "Divyanshu", " Rahul", "Vardan "};
+//        String []myArray = {"Raghav", "Divyanshu", " Rahul", "Vardan "};
+        int []myArray = {1,45,87,45,34};
 //        System.out.println(myArray[1]);
 
 //        for(myArray:)
@@ -15,7 +16,7 @@ public class class1 {
 //            System.out.println(myArray[i]);
 //        }
 
-        for(String x  : myArray){
+        for(int x  : myArray){
             System.out.println(x);
         }
 
