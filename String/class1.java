@@ -34,7 +34,7 @@ public class class1 {
         String newName = name.trim();
         System.out.println(newName.length());
 
-         String names = "Raghav,Divya,nshu,Rahul,Sparsh";
+         String names = "Raghav,Divyanshu,Rahul,Sparsh";
          String nameValue[] = names.split(",");
          for (String name2 : nameValue) {
              System.out.println(name2);
