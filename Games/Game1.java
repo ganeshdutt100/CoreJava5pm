@@ -15,11 +15,6 @@ public class Game1 {
             System.out.println("Enter your choice (rock/paper/scissors): ");
             String userChoice = scanner.nextLine().toLowerCase();
 
-            // Validate user input
-            if (!userChoice.equals("rock") && !userChoice.equals("paper") && !userChoice.equals("scissors")) {
-                System.out.println("Invalid choice! Please enter rock, paper, or scissors.");
-                continue;
-            }
 
             String computerChoice = choices[random.nextInt(choices.length)];
             System.out.println("Computer chose: " + computerChoice);
